@@ -3,16 +3,16 @@ a new-learner spider log, write by CDN.
 
 Might study this at this time: [DouBanSpider/doubanSpider.py](https://github.com/lanbing510/DouBanSpider/blob/master/doubanSpider.py)
 
-#### [db_books]( Learning-PYspider/db books version0.01 )
+#### [db_books]
 - 爬取了豆瓣读书top 250的书名和价格信息。
 - 思考数据维度的问题：还有什么信息可以拿到？拿到这些数据能干啥？
 - 好像没什么能做的了，本来也只是一个练手
 
-#### [antutu_scores]( Learning-PYspider/antutu scores version 0.01 )
+#### [antutu_scores]
 - 爬取了top50的跑分，用来反映手机性能数据
 - 拿不到销量数据很难受。
 
-#### [zol_phones] ( Learning-PYspider/ZOL phones 0.02 )
+#### [zol_phones] 
 - 只爬取了热门手机榜的第一页，45款机子。
 - 没怕后面一页是因为实在...从第二页开始要么是OV要么是others，我感觉没必要了
 - 要将zol_phones和antutu_scores联系起来得用到关系数据库，勉强可以用Access混一混，或者直接上MySQL
