@@ -35,12 +35,12 @@ for each in price_list:
     price = each.string.strip()
     l2.append(price)
     
-score_list = soup.find_all("span", class_="score")
+score_list = soup.find_all("span", class_="score") # 获取手机评分
 for each in score_list:
     score = each.string.strip()
     l3.append(score)
     
-com_list = soup.find_all("a", class_="comment-num")
+com_list = soup.find_all("a", class_="comment-num") # 获取评论人数
 for each in com_list:
     num = each.string.strip()
     num = re.match('\d*', num)
