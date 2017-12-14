@@ -29,4 +29,4 @@ Might study this at this time: [DouBanSpider/doubanSpider.py](https://github.com
 - 待续
 
 #### 一个奇怪的链接
-[研发技能表](http://blog.knownsec.com/Knownsec_RD_Checklist/）
+[研发技能表](http://blog.knownsec.com/Knownsec_RD_Checklist/)
